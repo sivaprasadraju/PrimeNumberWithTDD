@@ -9,3 +9,6 @@ class PrimeNumberTests(unittest.TestCase):
 		
 		def test_PrimeNumber(self):
         		self.assertTrue(prime_number(2))
+			
+		def test_PrimeNumberTestForZero(self):
+        		self.assertFalse(prime_number(0))
