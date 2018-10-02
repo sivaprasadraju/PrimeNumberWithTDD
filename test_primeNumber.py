@@ -12,3 +12,7 @@ class PrimeNumberTests(unittest.TestCase):
 			
 		def test_PrimeNumberTestForZero(self):
         		self.assertFalse(prime_number(0))
+				
+		def test_negative(self):
+        		with pytest.raises(ValueError):
+            		prime_number(-1)
