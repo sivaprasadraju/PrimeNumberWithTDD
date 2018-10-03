@@ -15,4 +15,4 @@ class PrimeNumberTests(unittest.TestCase):
 				
 		def test_negative(self):
         		with pytest.raises(ValueError):
-            		prime_number(-1)
+            			prime_number(-1)
