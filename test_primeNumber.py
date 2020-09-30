@@ -1,3 +1,4 @@
+#this program will check for prime nos.
 import unittest
 import pytest
 from main import *
